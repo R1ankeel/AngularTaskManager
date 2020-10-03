@@ -1,0 +1,50 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-item {
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.form-item:first-child {
+  margin-top: 15px;
+}
+
+.form-input {
+  height: 35px;
+  font-size: 25px;
+  font-style: italic;
+  font-family: 'Oswald', sans-serif;
+  padding: 7px;
+  color: darkmagenta;
+}
+
+.form-text {
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Oswald', sans-serif;
+  padding: 12px;
+  color: darkmagenta;
+}
+
+.form-btn {
+  height: 30px;
+  background: darkmagenta;
+  color: wheat;
+  outline: none;
+  font-size: 18px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.form-btn:hover {
+  outline: none;
+  background: linear-gradient(45deg, #e708d8, #501de2);
+}
+
+.form-btn:active {
+  background: linear-gradient(45deg, #e327d5, #6537e7);
+}
