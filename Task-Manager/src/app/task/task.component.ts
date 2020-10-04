@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, ContentChild, ElementRef, Input, OnInit} from '@angular/core';
+import {Task} from "../app.component";
 
 @Component({
   selector: 'app-task',
@@ -7,7 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TaskComponent implements OnInit {
 
-  constructor() { }
+  @Input() task: Task
+  @ContentChild('info', {static: true}) infoRef: ElementRef
 
   ngOnInit(): void {
   }

@@ -1,0 +1,35 @@
+.card {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+  border: 3px outset mediumpurple;
+  padding: 1rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  color: darkmagenta;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;
+  background: #6537e7;
+  color: #ffffff;
+  outline: none;
+}
+
+.btn:active {
+  outline: none;
+  background: #774eee;
+}
+
+.btn:hover {
+  background: linear-gradient(90deg, #6537e7, #521bf1);
+}
